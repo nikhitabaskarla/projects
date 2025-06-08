@@ -1,0 +1,78 @@
+.back{
+    background-color: rgb(175, 164, 172);
+}
+.box{
+    background-color: rgb(224, 229, 241);
+    display: flex;
+    justify-content: right;
+    
+}
+h1{
+    text-align: left;
+}
+.home,.skills,.project,.resume,.contact{
+    border: 20px solid white;
+}
+body{
+    background-color: rgb(163, 189, 205);
+    background-image: url('assets/sky.jpeg');
+    background-size: cover;           
+    background-repeat: no-repeat;     
+    background-position: center;      
+    background-attachment: fixed;
+}
+.container{
+    text-align:center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-1,.item-2{
+    width: 300px;
+    margin: 50px;
+    padding: 10px;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.image{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.home-section {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  padding: 40px;
+}
+
+.info {
+  padding: 2px;
+  flex: 1;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.img {
+    height: 400px;
+  flex: 1;
+  text-align: right;
+  border-radius: 100%;
+  transform: translate(-10px);
+  transition: all 2s ease-in-out 0s;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    align-items: start;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
